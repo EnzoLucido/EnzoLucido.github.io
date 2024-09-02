@@ -9,13 +9,10 @@ body {
     background-color: #f4f4f4;
 }
 
-.container {
-    width: 80%;
-    max-width: 800px;
-    margin: 20px;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 8px;
+header {
+    width: 100%;
+    background-color: #0073e6;
+    padding: 10px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,6 +36,16 @@ body {
 
 .nav-bar a:hover {
     color: #ffcc00;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
