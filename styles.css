@@ -66,6 +66,10 @@ p {
 }
 
 
+ul {
+   list-style: square;
+}
+
 ul li {
     margin: 5px 0;
     font-size: 18px;
