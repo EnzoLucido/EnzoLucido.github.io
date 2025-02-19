@@ -70,6 +70,14 @@ ul {
     padding: 0;
 }
 
+ul li::before {
+    content: "•"; 
+    color: #3AF863; /* Accent color */
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
 ul li {
     margin: 5px 0;
     font-size: 18px;
