@@ -65,13 +65,8 @@ p {
     line-height: 1.5;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
 
 ul li {
-    list-style: none;
     margin: 5px 0;
     font-size: 18px;
     color: #ffffff; /* White text color for list items */
@@ -79,7 +74,7 @@ ul li {
 
 ul li::before {
     content: "•";
-    color: #3AF863; /* Accent color */
+    color: #ffffff; /* Accent color */
     font-size: 20px;
     margin-right: 10px;
 }
