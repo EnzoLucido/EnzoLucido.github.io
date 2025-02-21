@@ -76,6 +76,11 @@ ul {
    list-style: square;
 }
 
+button {
+  margin-top: 20px;
+}
+
+
 .project {
     margin-bottom: 30px;
 }
