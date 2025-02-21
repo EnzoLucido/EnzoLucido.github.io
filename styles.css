@@ -76,6 +76,10 @@ ul {
    list-style: square;
 }
 
+input {
+	margin-bottom: 20px;
+}
+
 input[type="submit"] {
   margin-top: 20px;
 }
