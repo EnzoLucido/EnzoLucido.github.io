@@ -76,8 +76,8 @@ ul {
    list-style: square;
 }
 
-button {
-  margin-top: 40px;
+input[type="submit"] {
+  margin-top: 20px;
 }
 
 .project {
