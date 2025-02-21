@@ -77,11 +77,11 @@ ul {
 }
 
 input {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 input[type="submit"] {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .project {
