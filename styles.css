@@ -1,28 +1,34 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-color: #000000; /* Dark background color */
-    color: #ffffff; /* White text color */
+    align-items: center;
+    background-color: #000; /* Dark background color */
+    color: #fff; /* White text color */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
 }
 
 header {
-    width: 100%;
     background-color: #1F1F1F; /* Darker header background */
+    box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
     padding: 10px 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
 }
 
 .nav-bar {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+}
+
+ul li {
+    color: #fff; /* White text color for list items */
+    font-size: 18px;
+    margin: 5px 0;
 }
 
 .nav-bar li {
@@ -30,9 +36,9 @@ header {
 }
 
 a {
-    text-decoration: none;
     color: #B0FCC1;
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
@@ -40,24 +46,24 @@ a:hover {
 }
 
 .container {
-    width: 80%;
-    max-width: 800px;
-    margin: 20px;
-    padding: 20px;
     background: #1e1e1e; /* Dark background for the content */
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+    margin: 20px;
+    max-width: 800px;
+    padding: 20px;
     text-align: center;
+    width: 80%;
 }
 
 h1 {
-    margin-bottom: 20px;
     color: #AFFBFE; /* White text color for headings */
+    margin-bottom: 20px;
 }
 
 h2 {
-    margin-top: 20px;
     color: #D7FDFF; /* White text color for subheadings */
+    margin-top: 20px;
 }
 
 p {
@@ -69,13 +75,6 @@ p {
 ul {
    list-style: square;
 }
-
-ul li {
-    margin: 5px 0;
-    font-size: 18px;
-    color: #ffffff; /* White text color for list items */
-}
-
 
 .project {
     margin-bottom: 30px;
